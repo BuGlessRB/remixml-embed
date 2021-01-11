@@ -10,6 +10,9 @@ tags present in the DOM.
 ## Basic usage
 
 ```js
+  var wholedocument = document.head.parentNode;
+  var vrs = {};
+  Remixmlembed.loadscripts(wholedocument, vrs);
 ```
 
 ## Requirements

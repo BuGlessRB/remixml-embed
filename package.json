@@ -1,6 +1,6 @@
 {
   "name": "remixml-embed",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description":
    "Remixml component that loads embedded <script type='text/remixml'> tags",
   "main": "remixml-embed.min.js",

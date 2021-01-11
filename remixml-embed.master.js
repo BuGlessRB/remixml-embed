@@ -71,10 +71,10 @@
 
   function /** void */ loadscripts(/** !Node */ node,/** !Object */ $)
   { var /** NodeList */ list
-     = node.querySelectorAll("script[type=text/remixml]");
+     = node.querySelectorAll('script[type="text/remixml"]');
     var /** number */ i;
     for (i = 0; i < list.length; )
-      loadscript(list[i++], $);
+      loadscript(list[i++], $);	  // Execute in order defined
   }
 
   function /** !Object */ factory(/** !Object */ rxml)
