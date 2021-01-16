@@ -29,7 +29,7 @@
   { return remixml["abstract2dom"](abstract, node);
   }
 
-  var g =
+  const /** !Object */ g =
   { "loadscripts": loadscripts,
     "loadscript": loadscript,
     "fetchfile": fetchfile,
