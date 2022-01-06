@@ -35,13 +35,6 @@
     "fetchfile": fetchfile,
   };
 
-  if (!O.assign)
-    O.defineProperty(O, "assign",
-    { "value": function(d, s, i)
-      { if (s) for (i in s) d[i] = s[i]; return d;
-      }
-    });
-
   function /** void */ fetchfile(/** string */ url,
     /** function(string):void */ cb)
   { let /** !Object */ r = new XMLHttpRequest();
