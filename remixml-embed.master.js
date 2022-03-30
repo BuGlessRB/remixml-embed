@@ -9,7 +9,7 @@
 /** @define {number} */ var VERBOSE = 0;
 
 // Cut BEGIN delete
-(function()
+(() =>
 { "use strict";
 // Cut END delete
 
@@ -39,7 +39,7 @@
     /** function(string):void */ cb)
   { let /** !Object */ r = new XMLHttpRequest();
     r.open("GET", url);
-    r.onload = function()
+    r.onload = () =>
     { if (r.status >= 200 && r.status < 500)
         cb(r.responseText);
     };
